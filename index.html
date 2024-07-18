@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UK Income Tax Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="uk-flag.png" alt="UK Flag" class="flag" />
+      <h1>UK Income Tax Calculator</h1>
+      <div class="input-group">
+        <label for="salary">Annual Salary (GBP):</label>
+        <input
+          type="number"
+          id="salary"
+          placeholder="Enter your annual salary"
+        />
+      </div>
+      <div class="input-group">
+        <label for="dividends">Dividend Income (GBP):</label>
+        <input
+          type="number"
+          id="dividends"
+          placeholder="Enter your dividend income"
+        />
+      </div>
+      <button id="calculateButton">Calculate</button>
+      <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
